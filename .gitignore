@@ -1,2 +1,11 @@
-# Local retinal image dataset
-DATASET
+# Local retinal image dataset and downloaded weights
+/DATASET/
+/.torch_cache/
+
+# Generated model checkpoint
+/best_swin_tiny.pth
+
+# Local Python and Jupyter files
+.venv/
+__pycache__/
+.ipynb_checkpoints/
